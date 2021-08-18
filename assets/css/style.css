@@ -1,7 +1,7 @@
 :root {
     --primary-color: #3e242e;
-    --secondary-color: ;
-    --tertiary-color: #cf807c;
+    --secondary-color: #cf807c;
+    --tertiary-color: #dad2c6;
 }
 * {
     padding: 0;
@@ -23,6 +23,8 @@ header {
     position: -webkit-sticky;
     position: sticky;
     top:0;
+    line-height: 0.45;
+    z-index: 9999;
 }
 
 header h1 {
@@ -56,16 +58,16 @@ header nav ul li a:hover {
 }
 
 footer {
-    background: var(--primary-color);
+    background: var(--secondary-color);
     width: 100%;
     padding: 40px 35px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 footer h2 {
-    color: var(--secondary-color);
+    color: var(--primary-color);
     font-size: 30px;
     margin: 0;
 }
@@ -82,3 +84,41 @@ footer a {
 section {
     padding: 60px;
 }
+
+/* hero section */
+
+.hero {
+    background: var(--tertiary-color);
+    background-size: cover;
+    background-position: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: fixed;
+}
+
+.hero-title {
+    font-style: italic;
+    font-size: 30px;
+    text-align: center;
+    color: var(--primary-color);
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+#delay {
+    font-size: 30px;
+    transition-property: font-size;
+    transition-duration: 4s;
+    transition-delay: 0.75s;
+}
+
+#delay:hover {
+    font-size: 50;
+}
+/* end hero section */
+
+
+
+
+
