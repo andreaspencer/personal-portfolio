@@ -1,5 +1,21 @@
+:root {
+    --primary-color: #3e242e;
+    --secondary-color: ;
+    --tertiary-color: #cf807c;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: var(--tertiary-color);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
 header {
-    background-color: pink;
+    background-color: var(--tertiary-color);
     padding: 20px 5px;
     display: flex;
     justify-content: space-between;
@@ -7,4 +23,16 @@ header {
     position: -webkit-sticky;
     position: sticky;
     top:0;
+}
+
+header h1 {
+    color: var(--primary-color);
+    font-weight: bold;
+    font-size: 36px;
+    margin: 0;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+header a {
+    text-decoration: none;
 }
