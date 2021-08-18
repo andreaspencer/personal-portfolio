@@ -1,0 +1,10 @@
+header {
+    background-color: pink;
+    padding: 20px 5px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top:0;
+}
