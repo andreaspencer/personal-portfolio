@@ -57,7 +57,7 @@ header nav ul {
 
 header nav ul li {
     padding: 10px 15px;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 1.55vw;
     text-shadow: 0 0 10px rgba(0,0,0,0.5)
 }
@@ -126,7 +126,7 @@ section {
 }
 
 #delay:hover {
-    font-size: 50;
+    font-size: 50px;
 }
 /* end hero section */
 
@@ -215,4 +215,43 @@ section {
 }
 /* contact info end */
 
+@media screen and (max-width: 980px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+    }
 
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    header nav ul li {
+        font-size: 15px;
+    }
+
+    footer h2, .footer div {
+        text-align: center;
+        width: 100%;
+    }
+
+    .hero-title {
+        font-size: 25px;
+    }
+
+    .project {
+        flex: 0 70%
+    }
+
+    .project-h img{
+        width: 600px;
+        height: 400px;
+        overflow: auto;
+    }
+}
