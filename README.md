@@ -31,4 +31,4 @@ This weeks challenge was to creat your own portfolio from scratch. I needed to o
 https://andreaspencer.github.io/personal-portfolio/
 
 #### Webiste Screenshot
-![ScreenShot] Screen-Shot-Portfolio.png
+<img width="1439" alt="Screen-Shot_Portfolio" src="https://user-images.githubusercontent.com/87836575/130290006-c970c24b-e48a-447d-9752-9ba679ef3334.png">
